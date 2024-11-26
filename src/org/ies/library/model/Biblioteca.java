@@ -20,10 +20,10 @@ public class Biblioteca {
         }return null;
     }
 
-    public Autor hasAuthor(String nif) {
-        for(Autor autor: ) {
+    public boolean hasAuthor(String nif) {
+        for(Autor autor: libro) {
             if(autor.getNif().equals(nif)) {
-                return autor;
+                return true;
             }
         }return false;
     }
